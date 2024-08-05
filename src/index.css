@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li .active{
+    @apply p-3 bg-[#1ABC9C] rounded-md
+}
+.row{
+    @apply flex flex-wrap gap-y-10 gap-x-10 items-center justify-center
+}
+.item{
+    @apply  md:w-1/4 w-full
+}
